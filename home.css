@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+.content {
+    position: sticky;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.para {
+    color: white;
+    padding: 15px
+}
+
+#videohome {
+    position:static; 
+    width: 100%;
+
+    top:0;  
+    left:0;  
+    right:0;  
+    bottom:0;
+}
+
+div.scrollmenu {
+    position: static;
+    background-color: rgb(7, 3, 42);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    position: static;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: rgb(252, 142, 17);
+    color: black;
+    position: static;
+}
+
+.paracolor{
+    color: #040531;
+}
+
